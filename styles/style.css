@@ -196,20 +196,6 @@ a:hover {
         font-size: 15px;
     }
 
-    .link-insta {
-        background-color: var(--cor-botao);
-        color: var(--cor-texto-botao);
-        width: 80px;
-        text-align: center;
-        border-radius: 15px;
-        font-size: 12px;
-        font-weight: 600;
-        padding: 14px 0;
-        text-decoration: none;
-        font-family: var(--fonte-link);
-    }
-
-
 }
 
 @media(max-width:720px) {
@@ -220,3 +206,4 @@ a:hover {
         flex-direction: column;
     }
 }
+
