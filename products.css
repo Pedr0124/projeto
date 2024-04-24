@@ -1,8 +1,14 @@
 
-.body{
-    justify-content: center;
-    align-items: center;
+
+body {
+    height: 100vh;
+    background-color: var(--cor-fundo);
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
+
+
 .botao-biotipo{
     display: flex;
     gap: 20px;   
