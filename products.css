@@ -1,0 +1,23 @@
+
+.body{
+    justify-content: center;
+    align-items: center;
+}
+.botao-biotipo{
+    display: flex;
+    gap: 20px;   
+}
+.biotipo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: var(--cor-botao);
+    color: var(--cor-texto-botao);
+    width: 180px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 7px 0;
+    text-decoration: none;
+    font-family: var(--fonte-link); 
+}
