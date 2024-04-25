@@ -1,4 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&display=swap');
 
+:root {
+    --cor-titulo: #0e1c9b;
+    --cor-fundo: #4e8a97;
+    --cor-subtitulo: #222969;
+    --cor-strong: #d4deff;
+    --cor-link: #70bd6f;
+    --cor-borda-foto: #3d9c3a;
+    --cor-texto-1: rgb(0, 0, 0);
+    --cor-texto-2: rgb(0, 0, 0);
+    --cor-texto-3: rgb(0, 0, 0);
+    --cor-botao: #3d9c3a;
+    --cor-texto-botao: #d4deff;
+    --cor-rodape: #3d9c3a;
+    --cor-texto-rodape: rgb(0, 0, 0);
+    --cor-botao-click: #222969;
+    --fonte-titulo: "Kanit", sans-serif;
+    --font-strong: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --fonte-texto: "Outfit", sans-serif;
+    --fonte-link: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     height: 100vh;
@@ -8,12 +35,92 @@ body {
     text-align: center;
 }
 
-
-.botao-biotipo{
-    display: flex;
-    gap: 20px;   
+.cabecalho {
+    padding: 2% 0 0 15%;
 }
-.biotipo{
+
+.cabecalho-menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-menu-link {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-link);
+}
+
+.titulo {
+    color: var(--cor-titulo);
+    font-family: var(--fonte-titulo);
+    margin-top: 5%;
+    
+}
+
+strong {
+    color: var(--cor-strong);
+    font-weight: bold;
+    font-family: var(--font-strong);
+}
+
+.subtitulo {
+    color: var(--cor-subtitulo);
+}
+
+.descricao {
+    color: var(--cor-texto-1);
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.foto {
+    width: 500px;
+    border-radius: 20px;
+    border: solid var(--cor-borda-foto) 4px;
+    justify-content: flex-end;
+    margin: 5%;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.descricao-secundaria {
+    color: var(--cor-texto-2);
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.descricao-terciaria {
+    color: var(--cor-texto-3);
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+.apresentacao_texto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: start;
+    width: 90%;
+    gap: 20px;
+}
+
+a:hover {
+    background-color: var(--cor-botao-click);
+}
+
+.biotipo {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -25,5 +132,80 @@ body {
     font-weight: 600;
     padding: 7px 0;
     text-decoration: none;
-    font-family: var(--fonte-link); 
+    font-family: var(--fonte-link);
 }
+
+.logo-link {
+    width: 25px;
+}
+
+.botao-biotipo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 100px;
+}
+
+.rodape {
+    color: var(--cor-texto-rodape);
+    background-color: var(--cor-rodape);
+    padding: 24px;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media(max-width:1200px) {
+    .apresentacao {
+        flex-direction: column;
+    }
+    .cabecalho {
+        padding: 5%;
+    }
+    
+
+    .cabecalho-menu {
+        justify-content: center;
+    }
+    .cabecalho-menu-link {
+        font-size: 15px;
+    }
+
+    .titulo {
+        font-size: 25px;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+    }
+
+    .descricao {
+        font-size: 13px;
+    }
+
+    .descricao-secundaria {
+        font-size: 13px;
+    }
+
+    .descricao-terciaria {
+        font-size: 13px;
+    }
+
+    .foto {
+        width: 300px;
+    }
+
+    .rodape {
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:720px) {
+    .apresentacao_texto {
+        flex-direction: column;
+    }
+    .apresentacao_links{
+        flex-direction: column;
+    }
+}
+
