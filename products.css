@@ -57,64 +57,10 @@ body {
     
 }
 
-strong {
-    color: var(--cor-strong);
-    font-weight: bold;
-    font-family: var(--font-strong);
-}
-
 .subtitulo {
     color: var(--cor-subtitulo);
 }
 
-.descricao {
-    color: var(--cor-texto-1);
-    font-family: var(--fonte-texto);
-    font-size: 20px;
-    line-height: 35px;
-}
-
-.foto {
-    width: 500px;
-    border-radius: 20px;
-    border: solid var(--cor-borda-foto) 4px;
-    justify-content: flex-end;
-    margin: 5%;
-}
-
-.apresentacao {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.descricao-secundaria {
-    color: var(--cor-texto-2);
-    font-family: var(--fonte-texto);
-    font-size: 20px;
-    line-height: 35px;
-}
-
-.descricao-terciaria {
-    color: var(--cor-texto-3);
-    font-family: var(--fonte-texto);
-    font-size: 20px;
-    line-height: 35px;
-}
-
-
-.apresentacao_texto {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 10%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    text-align: start;
-    width: 90%;
-    gap: 20px;
-}
 
 a:hover {
     background-color: var(--cor-botao-click);
@@ -204,8 +150,9 @@ a:hover {
     .apresentacao_texto {
         flex-direction: column;
     }
-    .apresentacao_links{
+    .botao_biotipo{
         flex-direction: column;
     }
+
 }
 
