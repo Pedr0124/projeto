@@ -3,16 +3,16 @@
 
 :root {
     --cor-titulo: #0e1c9b;
-    --cor-fundo: #4e8a97;
+    --cor-fundo: #f4f4f4;
     --cor-subtitulo: #222969;
-    --cor-strong: #d4deff;
-    --cor-link: #70bd6f;
+    --cor-strong: #00155c;
+    --cor-link: #3d9c3a;
     --cor-borda-foto: #3d9c3a;
     --cor-texto-1: rgb(0, 0, 0);
     --cor-texto-2: rgb(0, 0, 0);
     --cor-texto-3: rgb(0, 0, 0);
     --cor-botao: #3d9c3a;
-    --cor-texto-botao: #d4deff;
+    --cor-texto-botao: #f4f4f4;
     --cor-rodape: #3d9c3a;
     --cor-texto-rodape: rgb(0, 0, 0);
     --cor-botao-click: #222969;
