@@ -26,6 +26,12 @@
     margin: 0;
     padding: 0;
 }
+.logo-canil{
+    width: 250px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 
 body {
     height: 100vh;
@@ -53,11 +59,13 @@ body {
 .titulo {
     color: var(--cor-titulo);
     font-family: var(--fonte-titulo);
-    margin-top: 5%;
+    margin-top: 1%;
+    flex-direction: row;
+
     
 }
 
-strong {
+.strong {
     color: var(--cor-strong);
     font-weight: bold;
     font-family: var(--font-strong);
@@ -194,6 +202,9 @@ a:hover {
 
     .rodape {
         font-size: 15px;
+    }
+    .logo-canil{
+        width: 80px; 
     }
 
 }
